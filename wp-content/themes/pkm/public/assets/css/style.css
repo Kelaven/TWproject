@@ -9,10 +9,73 @@
     color: #020101;
     font-family: 'Lato', Helvetica, sans-serif;
 }
+
 /* ! cover */
 #cover__img{
-    background-image: url('/wp-content/themes/pkm/public/assets/img/pokemon-photo-couverture-pokeball.jpg');
-    height: 40vh;
+    background-image: url('/wp-content/themes/pkm/public/assets/img/red-pokemon-photo-couverture-pokeball.jpg');
+    height: 50vh;
     background-size: cover;
-    background-position: 50% 60%;
+    background-position: 50% 20%;
+}
+#cover__overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Bangers', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 6em;
+}
+
+/* ! main */
+#main__content{
+    min-height: 80vh;
+}
+
+/* ! footer */
+#footer__img{
+    height: 60vh !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 80%;
+}
+.footer__bg{
+    background-color: #010204;
+}
+h2, h3{
+    color: #fff;
+    width: 100%;
+}
+h2{
+    font-family: 'Bangers', Helvetica, sans-serif;
+    font-size: 3em;
+}
+h3, h5, p{
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+}
+hr{
+    border-bottom: 3px solid white;
+    width: 10vw;
+}
+ul{
+    list-style-type: none;
+}
+footer ul a, h5, small, #footer__adress{
+    text-decoration: none;
+    color: #fff !important;
+}
+#footer__adress{
+    font-weight: lighter;
+}
+#email{
+    border-radius: 0%;
+}
+.input-group{
+    width: 250px !important;
 }
