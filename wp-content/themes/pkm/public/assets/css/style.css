@@ -1,0 +1,18 @@
+/* ! navbar */
+.navbar{
+    background-color: white !important;
+}
+.navbar img{
+    height: 80px;
+}
+.navbar li a{
+    color: #020101;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+/* ! cover */
+#cover__img{
+    background-image: url('/wp-content/themes/pkm/public/assets/img/pokemon-photo-couverture-pokeball.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: 50% 60%;
+}
