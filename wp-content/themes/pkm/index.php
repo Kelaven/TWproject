@@ -24,17 +24,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link"href="#">Catégorie 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catégorie 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catégorie 3</a>
-                        </li>
-                    </ul>
+                    <div class="d-flex justify-content-end w-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link"href="#">Catégorie 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Catégorie 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-2" href="#">Catégorie 3</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -122,7 +124,7 @@
                 <!-- trad footer -->
                 <div class="row pt-5  text-center">
                     <div class="col">
-                        <h5>Accès rapide</h5>
+                        <h5 class="footer__trad__h5">Accès rapide</h5>
                         <ul class="p-0">
                             <a href="#">
                                 <li class="py-1 py-lg-0">Accueil</li>
@@ -139,10 +141,10 @@
                         </ul>
                     </div>
                     <div class="col">
-                        <h5>
+                        <h5 class="footer__trad__h5">
                             Contactez-nous
                         </h5>
-                        <p id="footer__adress" class="text-center">
+                        <p id="footer__adress" class="text-center pt-4">
                             70 rue des jacobins <br>
                             80 000 Amiens <br>
                             contactus@centrepkm.fr

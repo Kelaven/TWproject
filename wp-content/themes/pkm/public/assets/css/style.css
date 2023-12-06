@@ -43,7 +43,8 @@ h1{
     object-position: 50% 80%;
 }
 .footer__bg{
-    background-color: #010204;
+    background: rgb(1,2,4);
+    background: linear-gradient(0deg, rgba(1,2,4,1) 0%, rgba(1,2,4,1) 94%, rgba(255,255,255,1) 100%);
 }
 h2, h3{
     color: #fff;
@@ -66,7 +67,7 @@ hr{
 ul{
     list-style-type: none;
 }
-footer ul a, h5, small, #footer__adress{
+footer ul a, small, .footer__trad__h5, #footer__adress{
     text-decoration: none;
     color: #fff !important;
 }
