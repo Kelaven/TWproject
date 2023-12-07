@@ -17,7 +17,7 @@
 
     <header>
         <!-- ! Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-lg-5 mx-lg-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="/wp-content/themes/pkm/public/assets/img/pokemon-logo.png" alt="logo pokemon theme wordpress"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                     <div class="d-flex justify-content-end w-100">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link"href="#">Catégorie 1</a>
+                                <a class="nav-link"href="/wp-content/themes/pkm/archive.php">Catégorie 1</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Catégorie 2</a>
@@ -151,7 +151,7 @@
                         </p>
                     </div>
                     <div class="col">
-                        <form class="d-flex justify-content-center flex-wrap py-3 py-lg-0">
+                        <form class="d-flex justify-content-center flex-wrap py-3 py-lg-0 pt-xl-3">
                             <label for="email" class="w-100"><small>Inscrivez-vous à notre newsletter</small></label>
                             <div class="input-group">
                                 <input type="email" name="email" id="email" placeholder="Entrez votre mail" class="form-control">

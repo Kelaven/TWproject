@@ -35,6 +35,39 @@ h1{
     min-height: 80vh;
 }
 
+/* ! archive */
+.archive h2, .archive h3{
+    color: #020101 !important;
+}
+.archive hr{
+    border-bottom: 2px solid #020101;
+}
+
+/* ! single */
+.single h2, .single small, .single p{
+    color: #020101 !important;
+    text-align: justify;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+.single h2, .single h5{
+    text-transform: uppercase;
+}
+.single h5{
+    font-size: 0.8em;
+}
+.single img{
+    max-width: 100%;
+}
+.single hr{
+    width: 2vw !important;
+    border-bottom: 2px solid #020101;
+}
+.single__img--little{
+    max-width: 80% !important;
+    border-radius: 10px;
+}
+
+
 /* ! footer */
 #footer__img{
     height: 60vh !important;
