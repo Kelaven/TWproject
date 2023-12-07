@@ -22,6 +22,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="d-flex justify-content-end w-100">
+                        <?php
+                        wp_nav_menu(array(
+                            'theme_location' => 'main-menu',
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="%1$s" class="navbar-nav %2$s"><li class="nav-item">%3$s</li></ul>',
+                            'depth' => 2,
+                            'walker' => new bootstrap_5_wp_nav_menu_walker()
+                        ));
+                        ?>
+                    </div>
+                    <!-- <div class="d-flex justify-content-end w-100">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link" href="/wp-content/themes/pkm/archive.php">Catégorie 1</a>
@@ -33,7 +46,7 @@
                                 <a class="nav-link pe-2" href="#">Catégorie 3</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </nav>

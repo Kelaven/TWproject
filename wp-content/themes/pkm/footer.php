@@ -1,5 +1,3 @@
-<?php wp_footer(); ?>
-
 <footer class="footer__bg">
     <section>
         <div class="container-fluid">
@@ -96,6 +94,7 @@
 
 
 
+<?php wp_footer(); ?> <!-- pour charger les scripts -->
 
 </body>
 
