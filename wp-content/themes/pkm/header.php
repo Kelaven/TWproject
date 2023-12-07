@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr" <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?>>
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Thème</title>
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- my style -->
-    <link rel="stylesheet" href="/wp-content/themes/pkm/public/assets/css/style.css">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lato&display=swap" rel="stylesheet">
-    <?php wp_head(); ?>
+    <?php wp_head(); ?> <!-- pour charger des extensions, ou CDN... dans le head -->
 </head>
 
-<body <?php body_class(); ?>>
-    
-<?php wp_body_open(); ?>
+<body>
+
+    <?php wp_body_open(); ?> <!-- pour que certaines extensions comme Yoast puissent fonctionner correctement (en écrivant du code au dessus du body) -->
 
     <header>
         <!-- ! Navbar -->
@@ -30,7 +24,7 @@
                     <div class="d-flex justify-content-end w-100">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link"href="/wp-content/themes/pkm/archive.php">Catégorie 1</a>
+                                <a class="nav-link" href="/wp-content/themes/pkm/archive.php">Catégorie 1</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Catégorie 2</a>

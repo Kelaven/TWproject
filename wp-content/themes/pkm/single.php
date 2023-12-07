@@ -16,7 +16,7 @@
     <section class="container single">
         <div class="row py-4">
             <!-- single left menu -->
-            <div class="col-2 pt-5">
+            <div class="col-12 order-1 order-lg-0 col-md-8 col-lg-2 pt-5">
                 <p>
                     Sur le même sujet
                 </p>
@@ -29,7 +29,7 @@
                 <h5 class="py-2">Titre de l'article 3</h5>
             </div>
             <!-- single article -->
-            <div class="col-10 pt-5" id="single__container">
+            <div class="col-12 order-0 order-lg-0 col-lg-10 pt-5" id="single__container">
                 <h2>Titre de l'article 1</h2>
                 <small class="pt-3">Kevin Lavenant - Jeu. 07 décembre 2023</h3>
                     <p class="fst-italic py-2 pt-3">
