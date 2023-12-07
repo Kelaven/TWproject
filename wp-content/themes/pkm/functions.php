@@ -1,4 +1,5 @@
 <?php
+// ! charger les scripts et styles
 function pkm_register_assets() {
     // déclarer le JS
     wp_enqueue_script(
@@ -54,3 +55,10 @@ function pkm_register_assets() {
 };
 
 add_action('wp_enqueue_scripts', 'pkm_register_assets');
+
+
+// ! activer l'image mise en avant
+add_theme_support('post-thumbnails');
+
+// ! définir d'autres tailles d'image
+add_image_size('article-main-pic', 1076, 360, false);
