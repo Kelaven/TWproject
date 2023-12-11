@@ -11,12 +11,52 @@
             <div class="row">
                 <div class="col text-center d-flex flex-wrap justify-content-center pt-5">
                     <h2 class="footer__h2">Découvrez</h2>
-                    <h3 class="pt-3 footer__h3">Articles les plus populaires</h3>
+                    <h3 class="pt-3 footer__h3">Articles les plus récents</h3>
                     <hr>
                 </div>
             </div>
-            <!-- cards -->
+
             <div class="row py-5 text-center ">
+            <?php
+                    $args = array(
+                        'post_type' => 'post',
+                        // 'category_name' => 'mondemagique',
+                        'posts_per_page' => 3,
+                    );
+
+                    $my_query = new WP_Query($args);
+
+                    if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
+
+                        <div class="col py-2 p-lg-0 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'card__img']); ?>
+                        <div class="card-body">
+                        <h5 class="card-title"><?php the_title(); ?></h5>
+                        <p class="card-text"><?php the_excerpt(); ?></p>
+                        <a href="<?php the_permalink(); ?>" class="btn btn-dark">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                    <?php
+                    endwhile;
+                    endif;
+
+                    wp_reset_postdata();
+                    ?>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- cards -->
+            <!-- <div class="row py-5 text-center ">
                 <div class="col py-2 p-lg-0 d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
                         <img src="/wp-content/themes/pkm/public/assets/img/pokemon-image-for-article.jpg" class="card-img-top" alt="...">
@@ -47,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- trad footer -->
             <div class="row pt-5  text-center">
                 <div class="col">

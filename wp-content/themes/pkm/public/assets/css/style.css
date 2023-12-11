@@ -51,24 +51,13 @@ h2, h3{
 .card__img{
     width: 100%;
     height: auto;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .category__h3{
     font-size: 1em;
-    /* display: flex; */
-    /* justify-content: center; */
     text-align: center !important;
 }
-/* .card-body{
-    position: relative;
-}
-.btn-dark{
-    position: absolute;
-    bottom: 10px;
-    left: 50% !important;
-    transform: translateX(-50%);
-} */
 
 /* ! single */
 .single h2, .single small, .single p{
