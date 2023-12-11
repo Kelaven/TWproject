@@ -143,5 +143,6 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 }
 // ! créer le menu
 register_nav_menus(array(
-    'main-menu' => 'Menu Principal'
+    'main-menu' => 'Menu Principal',
+    'menu-footer' => 'Bas de page',
 ));

@@ -43,7 +43,6 @@
                 <div class="col p-0" id="cover__img">
                     <div id="cover__overlay">
                         <h1 class="text-center"><?php bloginfo( 'name' ); ?></h1>
-                        <!-- <h1 class="text-center px-2">Titre du site</h1> -->
                     </div>
                 </div>
             </div>

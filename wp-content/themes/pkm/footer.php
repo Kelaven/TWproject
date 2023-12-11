@@ -51,21 +51,8 @@
             <!-- trad footer -->
             <div class="row pt-5  text-center">
                 <div class="col">
-                    <h5 class="footer__trad__h5">Accès rapide</h5>
-                    <ul class="p-0">
-                        <a href="#">
-                            <li class="py-1 py-lg-0">Accueil</li>
-                        </a>
-                        <a href="">
-                            <li class="py-1 py-lg-0">Catégorie 1</li>
-                        </a>
-                        <a href="">
-                            <li class="py-1 py-lg-0">Catégorie 2</li>
-                        </a>
-                        <a href="">
-                            <li class="py-1 py-lg-0">Catégorie 3</li>
-                        </a>
-                    </ul>
+                    <h5 class="footer__trad__h5 ps-4 ms-2">Accès rapide</h5>
+                    <?php wp_nav_menu( array( 'theme_location' => 'menu-footer' ) ); ?>
                 </div>
                 <div class="col">
                     <h5 class="footer__trad__h5">
