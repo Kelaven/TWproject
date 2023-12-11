@@ -5,9 +5,9 @@
 .navbar img{
     height: 80px;
 }
-.navbar li a{
-    color: #020101;
-    font-family: 'Lato', Helvetica, sans-serif;
+.navbar li a, h2, h3, p{
+    color: #020101 !important;
+    font-family: 'Lato', Helvetica, sans-serif !important;
 }
 
 /* ! cover */
@@ -29,6 +29,12 @@ h1{
     color: #fff;
     font-size: 6em;
 }
+
+/* ! index */
+h2, h3{
+    padding: 0px 0px 10px 0px !important;
+}
+
 
 /* ! main */
 #main__content{
