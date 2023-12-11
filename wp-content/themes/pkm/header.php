@@ -34,19 +34,20 @@
                         ));
                         ?>
                     </div>
-                    <!-- <div class="d-flex justify-content-end w-100">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/wp-content/themes/pkm/archive.php">Catégorie 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Catégorie 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pe-2" href="#">Catégorie 3</a>
-                            </li>
-                        </ul>
-                    </div> -->
                 </div>
             </div>
         </nav>
+
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col p-0" id="cover__img">
+                    <div id="cover__overlay">
+                        <h1 class="text-center"><?php bloginfo( 'name' ); ?></h1>
+                        <!-- <h1 class="text-center px-2">Titre du site</h1> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>

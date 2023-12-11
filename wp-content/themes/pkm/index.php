@@ -1,33 +1,21 @@
 <?php get_header(); ?>
 
 
-<section class="container-fluid">
+<section class="container">
     <div class="row">
-        <div class="col p-0" id="cover__img">
-            <div id="cover__overlay">
-                <h1 class="text-center px-2">Titre du site</h1>
-            </div>
-        </div>
-    </div>
-</section>
-</header>
+        <div class="col" id="main__content">
 
-<main>
-    <section class="container">
-        <div class="row">
-            <div class="col" id="main__content">
-
-                <!-- ! contenu de la page d'accueil -->
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <!-- ! contenu de la page d'accueil -->
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                     <?php the_content(); ?>
 
-                <?php endwhile;
-                endif; ?>
+            <?php endwhile;
+            endif; ?>
 
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 </main>
 
 

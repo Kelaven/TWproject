@@ -10,8 +10,8 @@
             <!-- footer h2 -->
             <div class="row">
                 <div class="col text-center d-flex flex-wrap justify-content-center pt-5">
-                    <h2>Découvrez</h2>
-                    <h3 class="pt-3">Articles les plus populaires</h3>
+                    <h2 class="footer__h2">Découvrez</h2>
+                    <h3 class="pt-3 footer__h3">Articles les plus populaires</h3>
                     <hr>
                 </div>
             </div>
