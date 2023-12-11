@@ -118,7 +118,7 @@ h2{
 h3, h5, p{
     font-family: 'Lato', Helvetica, sans-serif;
 }
-p{
+.card p{
     text-align: justify;
 }
 hr{
