@@ -13,11 +13,15 @@
                     <hr>
 
                     <?php
+                    // $categorie = get_the_category();
+                    // $categoryName = $category[0]->cat_name;
                     $args = array(
                         'post_type' => 'post', // articles
                         'category_name' => 'mondemagique',
+                        // 'category_name' => $categoryName,
                         'posts_per_page' => 3,
-                        'offset' => 1,
+                        // 'offset' => 1,
+                        'post__not_in' => array(($post->ID)), // exclure l'article déjà présent
                     );
 
                     $my_query = new WP_Query($args);
