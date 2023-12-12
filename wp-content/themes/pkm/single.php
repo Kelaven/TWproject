@@ -1,11 +1,12 @@
 <?php get_header(); ?>
 
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <section class="container single">
             <div class="row py-4">
                 <!-- single left menu -->
-                <div class="col-12 order-1 order-lg-0 col-md-8 col-lg-2 pt-5" id="single__left--articles">
+                <div class="col-12 order-1 order-lg-0 col-md-8 col-lg-2 pt-5 mt-2" id="single__left--articles">
                     <p>
                         Sur le même sujet
                     </p>
