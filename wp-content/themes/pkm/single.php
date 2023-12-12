@@ -14,7 +14,7 @@
 
                     <?php
                     $args = array(
-                        'post_type' => 'post',
+                        'post_type' => 'post', // articles
                         'category_name' => 'mondemagique',
                         'posts_per_page' => 3,
                         'offset' => 1,
